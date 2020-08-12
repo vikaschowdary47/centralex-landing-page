@@ -1,0 +1,146 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    /* scroll-behavior: smooth; */
+    box-sizing: border-box;
+}
+section{
+    background-color: #2d6dcd;
+    background-image: url('./New_webpage_icons/custom/Component\ 5\ –\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+.header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.logo{
+    float: left;
+}
+nav{
+    
+    margin-left: auto;
+}
+nav ul {
+    margin-top: 10px;
+    /* margin: 0;
+    padding: 0; */
+  }
+.nav-li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+.download-icon{
+    margin-left: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: white;
+}
+.pro-pic{
+    width: 35px;
+}
+.nav-drop{
+    margin-left: 2px;
+    cursor: pointer;
+}
+/* headings */
+.titles{
+    margin: 50px auto ;
+    text-align: center;
+    color: white;
+    line-height: 1rem;
+}
+.titles p{
+    font-size: 1.5em;
+}
+.titles span{
+    font-size: .7em;
+}
+.begin-form{
+    margin-top: 50px;
+}
+.begin-form form{
+    /* text-align: center; */
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.begin-form input{
+    height: 40px;
+    width: 300px;
+    margin-right: 30px;
+    border-radius: 0;
+}
+.begin-form button {
+    background-color: #54B97B;
+    color: white;
+}
+
+/* table */
+.table-content{
+    width: 70%;
+    margin: -110px auto 0 auto;
+    position: relative;
+    box-shadow: 0px 1.5px 0px 0.5px rgba(45,109,205,0.7);
+}
+.table-content button {
+    background-color: #F2F9F5;
+    color: #8ACEA4;
+}
+table{
+    height: auto;
+}
+.m-t-h{
+    background-color: #D6E4FE;
+    color: #2d6dcd;
+}
+table tbody{
+    color: #99A3B7;
+}
+tbody img{
+    margin-right: 6px;
+}
+.more-arrow{
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transition: 250ms;
+}
+.more-arrow:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+main{
+    position: relative;
+    margin-top: 80px;
+    height: 500px;
+}
+.first-circle{
+    position: absolute;
+    left: -70px;
+}
+/* .rest-body {
+    /* display: block; */
+    background-color: black;
+    margin-top: 100px;
+} */
+/* media query */
+
+@media only screen and (max-width:1000px){
+    .header{
+        width: 100%;
+        margin: 0;
+    }
+    /* .header li{
+        margin-left: 10px;
+    } */
+}
