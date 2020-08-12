@@ -127,12 +127,52 @@ main{
 .first-circle{
     position: absolute;
     left: -70px;
+    top: 0;
 }
-/* .rest-body {
-    /* display: block; */
-    background-color: black;
-    margin-top: 100px;
+.main-body{
+    width: 85%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: lightblue; */
+}
+.main-body-text p{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #816565;
+    line-height: 1.2em;
+}
+.main-body-text span{
+    font-size: 1em;
+    color: #816565;
+    line-height: 1.2em;
+}
+.main-body-text button{
+    background-color: #2d6dcd;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 25px;    
+}
+/* .portfolio{
+    background-color: #2d6dcd;
+    height: 600px;
+    width: 100%;
+    transform: rotate(-4deg);
+    transform: skew(30deg);
 } */
+
+.portfolio{
+    background-color: #2d6dcd;
+    padding:500px;
+    transform: skew(0deg, -10deg);
+}
+/* .hr1{
+    border: 3px solid black;
+    transform: skewY(-5deg)
+} */
+
 /* media query */
 
 @media only screen and (max-width:1000px){
