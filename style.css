@@ -129,13 +129,19 @@ main{
     left: -70px;
     top: 0;
 }
+.second-circle{
+position: absolute;
+right: -50px;
+bottom: 100px;
+}
+
 .main-body{
     width: 85%;
-    margin: 100px auto;
+    margin: 100px auto 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* background-color: lightblue; */
+    padding: 10px;
 }
 .main-body-text p{
     font-size: 2rem;
@@ -155,23 +161,55 @@ main{
     font-size: 1.3em;
     margin-top: 25px;    
 }
-/* .portfolio{
-    background-color: #2d6dcd;
-    height: 600px;
-    width: 100%;
-    transform: rotate(-4deg);
-    transform: skew(30deg);
-} */
-
 .portfolio{
     background-color: #2d6dcd;
-    padding:500px;
+    padding:100px 0;
     transform: skew(0deg, -10deg);
 }
-/* .hr1{
-    border: 3px solid black;
-    transform: skewY(-5deg)
+.portfolio-body{
+    transform: skew(0deg, 10deg);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+.portfolio-text{
+    color: white;
+    font-size: 1.2em;
+}
+.portfolio-text li{
+    list-style: none;
+    position: relative;
+    padding: 3px;
+    /* margin-bottom: 10px; */
+}
+.portfolio-text li::before {
+    content: "•";
+    position: absolute;
+    top: 0;
+    margin-top: -30px;
+    color: white;
+    display: flex;
+     font-size: 60px;
+    margin-left: -.7em
+}
+/* .p-heading{
+    font-size: 1.8em;
+    font-weight: 600;
 } */
+.portfolio-text p{
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+.portfolio-text ul p{
+    font-size: 1.2em;
+}
+.portfolio-text li span{
+    font-size: 1em;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+
 
 /* media query */
 
