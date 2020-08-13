@@ -4,6 +4,9 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 section{
     background-color: #2d6dcd;
     background-image: url('./New_webpage_icons/custom/Component\ 5\ –\ 1.png');
@@ -16,6 +19,10 @@ section{
     margin: auto;
     display: flex;
 }
+/* .header button{
+    float: right;
+    margin-left: auto;
+} */
 .logo{
     float: left;
 }
@@ -343,9 +350,18 @@ bottom: 100px;
 @media only screen and (max-width:1000px){
     .header{
         width: 100%;
-        margin: 0;
+        /* margin: 0; */
     }
     /* .header li{
         margin-left: 10px;
     } */
+}
+@media only screen and (max-width:800px){
+    .header{
+        width: 100%;
+        margin: 0;
+    }
+    .table-content{
+        width: 98%;
+    }
 }
