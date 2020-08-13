@@ -123,6 +123,7 @@ main{
     position: relative;
     margin-top: 80px;
     height: 500px;
+    overflow-x: hidden;
 }
 .first-circle{
     position: absolute;
@@ -203,9 +204,72 @@ bottom: 100px;
     margin-top: -10px;
     margin-bottom: 20px;
 }
+.exchange h2{
+    color: #656464;
+    margin-bottom: 100px;
+    font-weight: 700;
+}
+.exchange-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+.exchange-body-text{
+    text-align: right;
+    margin-left: 50px;
+}
+.exchange-body-text p{
+    font-size: 1.7em;
+    font-weight: 700;
+    color: #656464;
+}
+.exchange-body-text span{
+    color: #C5C5C5;
+}
 
-
+.begin{
+    background-color: #2d6dcd;
+    margin-top: 180px;
+    /* height: 500px; */
+    padding: 6em;
+    position: relative;
+}
+.begin h1{
+    color: white;
+}
+.begin-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.begin-body-img p{
+    color: white;
+}
+.begin-body-img-middle{
+    position: relative;
+}
+.begin-body-img-middle::before{
+    content: '';
+    display: block;
+    width: 200px;
+    background-color: white;
+    height: 5px;
+    position: absolute;
+    top: 60%;
+    left: -130%;
+}
+.begin-body-img-middle::after{
+    content: '';
+    display: block;
+    width: 200px;
+    background-color: white;
+    height: 5px;
+    position: absolute;
+    top: 60%;
+    left: 110%;
+}
 /* media query */
 
 @media only screen and (max-width:1000px){
