@@ -328,11 +328,14 @@ bottom: 100px;
 }
 .product h5,.company h5,.learn h5{
     color: #5C5B5B;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 .product a,.company a,.learn a{
     text-decoration: none;
-    color: #A8A9AD;
-    font-weight: 500;
+    color: #666566;
+    font-size: 1.2em;
+    font-weight: 600;
 }
 
 /* media query */
