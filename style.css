@@ -290,18 +290,18 @@ bottom: 100px;
 .begin-body-img-middle::before{
     content: '';
     display: block;
-    width: 180px;
+    width: 100px;
     background: white;
     height: 5px;
     position: absolute;
     top: 50%;
-    left: -100%;
+    left: -70%;
     z-index: 1;
 }
 .begin-body-img-middle::after{
     content: '';
     display: block;
-    width: 180px;
+    width: 100px;
     background: white;
     height: 5px;
     position: absolute;
