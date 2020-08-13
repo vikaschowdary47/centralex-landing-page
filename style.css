@@ -16,10 +16,18 @@ section{
     width: 90%;
     margin: auto;
     display: flex;
+    padding: 0;
 }
 .logo{
     float: left;
+    display: flex;
+    /* display: inline-block; */
 }
+.logo-text{
+    height: 13px;
+    margin-top: 23px;
+}
+
 nav{
     
     margin-left: auto;
