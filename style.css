@@ -294,6 +294,47 @@ bottom: 100px;
     align-items: center;
     justify-content: space-evenly;
 }
+
+.footer-body{
+    margin-top: 100px;
+    padding: 90px 10px;
+    background-color: #F4F8FF;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-foot{
+    width: 100%;
+    text-align: center;
+    background-color: #2d6dcd;
+    color: #dfe9f8;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.socialmedia-icons{
+    margin-top: 18px;
+
+}
+.socialmedia-icons a{
+    margin-left: 20px;
+}
+.product,.company,.learn {
+    line-height: 1rem;
+}
+.product h5,.company h5,.learn h5{
+    color: #5C5B5B;
+}
+.product a,.company a,.learn a{
+    text-decoration: none;
+    color: #A8A9AD;
+    font-weight: 500;
+}
+
 /* media query */
 
 @media only screen and (max-width:1000px){
